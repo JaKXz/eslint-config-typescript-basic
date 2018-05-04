@@ -8,8 +8,7 @@
   ],
   "repository": "jakxz/eslint-config-typescript-basic",
   "scripts": {
-    "precommit": "pretty-quick --staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "pretty-quick --staged"
   },
   "keywords": [],
   "author": "Jason Kurian <jgkurian@me.com>",
