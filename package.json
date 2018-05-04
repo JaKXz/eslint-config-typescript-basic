@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-typescript-basic",
+  "version": "1.0.0",
+  "description": "shareable eslint config for basic typescript linting",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "jakxz/eslint-config-typescript-basic",
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jason Kurian <jgkurian@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "trailingComma": "none"
+  }
+}
