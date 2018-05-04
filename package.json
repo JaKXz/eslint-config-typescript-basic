@@ -22,5 +22,9 @@
     "singleQuote": true,
     "bracketSpacing": true,
     "trailingComma": "none"
+  },
+  "peerDependencies": {
+    "eslint-plugin-typescript": "*",
+    "typescript-eslint-parser": "*"
   }
 }
