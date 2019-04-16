@@ -24,7 +24,7 @@
     "trailingComma": "none"
   },
   "peerDependencies": {
-    "eslint-plugin-typescript": "*",
-    "typescript-eslint-parser": "*"
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*"
   }
 }
