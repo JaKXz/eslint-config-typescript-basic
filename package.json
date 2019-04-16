@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-typescript-basic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "shareable eslint config for basic typescript linting",
   "main": "index.js",
   "files": [
