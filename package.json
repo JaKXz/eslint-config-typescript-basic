@@ -7,16 +7,14 @@
     "index.js"
   ],
   "repository": "jakxz/eslint-config-typescript-basic",
-  "scripts": {
-    "precommit": "pretty-quick --staged"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Jason Kurian <jgkurian@me.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^0.14.3",
-    "prettier": "^1.12.1",
-    "pretty-quick": "^1.4.1"
+    "husky": "^4.0.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
   },
   "prettier": {
     "singleQuote": true,
@@ -26,5 +24,10 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }

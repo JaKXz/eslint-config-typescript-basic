@@ -11,6 +11,8 @@ This module is meant as a simple start for projects with JS and TS files that li
 
 ```
 npm install --save-dev eslint-config-typescript-basic
+# OR
+yarn add -D eslint-config-typescript-basic
 ```
 
 ## Usage
@@ -19,7 +21,7 @@ npm install --save-dev eslint-config-typescript-basic
 
 ```json
 {
-  "extends": "typescript-basic"
+  "extends": ["typescript-basic"]
 }
 ```
 
@@ -28,7 +30,7 @@ npm install --save-dev eslint-config-typescript-basic
 ```json
 {
   "eslintConfig": {
-    "extends": "typescript-basic"
+    "extends": ["typescript-basic"]
   }
 }
 ```
